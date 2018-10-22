@@ -95,5 +95,7 @@ aline <-c(215,165,76,132,76)
 
 
 png(file= "linechart1.jpg")
-plot(Lline, type='o')
+plot(Day, Lline, type='o', main='Data Title', xlab='Day', ylab='Amount', xlim=c(1,5), ylim=c(0,250))
+lines(line7, type='o')
+lines(aline, type='o')
 
